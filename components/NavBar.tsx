@@ -9,10 +9,10 @@ function NavBar() {
     <div className='flex justify-between
      p-3 px-10 border-b-[1px] shadow-sm'>
         <div className='flex gap-10 items-center'>
-            <Image src='/logo.png'
+            <Image src='/logo1.png'
             alt='logo'
-            width={120}
-            height={60}
+            width={40}
+            height={40}
             />
             <div className='hidden md:flex gap-6'>
                 <h2 className='hover:bg-gray-100 p-2

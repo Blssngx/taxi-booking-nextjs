@@ -1,3 +1,4 @@
+"use client"
 import { UserLocationContext } from "@/context/UserLocationContext";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Map, Marker } from "react-map-gl";
