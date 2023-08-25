@@ -2,7 +2,7 @@ import { DestinationCordiContext } from '@/context/DestinationCordiContext'
 import { SourceCordiContext } from '@/context/SourceCordiContext'
 import React, { useContext, useEffect, useState } from 'react'
 
-const session_token='5ccce4a4-ab0a-4a7c-943d-580e55542363'
+const session_token='079f01f0-1ae8-4da1-88a2-276c26d0dafb'
 const MAPBOX_RETRIVE_URL='https://api.mapbox.com/search/searchbox/v1/retrieve/'
 function AutocompleteAddress() {
 
@@ -75,7 +75,7 @@ function AutocompleteAddress() {
   return (
     <div className=''>
         <div className='relative'>
-            <label className='text-gray-400 text-[13px]'>Where From?</label>
+            <label className='text-gray-600 text-[13px]'>Where From?</label>
             <input type="text"
                 className='bg-white p-1 
                 border-[1px] w-full 
@@ -100,7 +100,7 @@ function AutocompleteAddress() {
            </div>:null}
         </div>
         <div className='relative'>
-            <label className='text-gray-400 text-[13px]'>Where To?</label>
+            <label className='text-gray-600 text-[13px]'>Where To?</label>
             <input type="text"
                 className='bg-white p-1 
                 border-[1px] w-full 

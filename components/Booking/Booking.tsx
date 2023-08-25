@@ -18,7 +18,7 @@ function Booking() {
         <Cars/>
         <Cards/>
         <button className='w-full
-         bg-yellow-400
+         bg-orange-600
         p-1 rounded-md
         mt-4'>Book</button>
         

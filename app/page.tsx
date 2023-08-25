@@ -27,7 +27,7 @@ export default function Home() {
     })
   }
   return (
-    <div className=''>
+    <div className='container mx-auto'>
       <UserLocationContext.Provider value={{userLocation,setUserLocation}}>
       <SourceCordiContext.Provider value={{soruceCordinates,setSourceCordinates}}>
       <DestinationCordiContext.Provider value={{destinationCordinates,setDestinationCordinates}}>

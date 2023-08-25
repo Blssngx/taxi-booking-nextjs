@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return(
     <div className="flex justify-center flex-col m-5 items-center">
-      <Image src='/logo.png'
+      <Image src='/logo1.png'
       alt="logo"
       width={100}
       height={100}

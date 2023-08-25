@@ -7,8 +7,8 @@ export default[
     // },
     {
         id:2,
-        name:'MiniVan',
-        image:'/22.png',
+        name:'Taxi',
+        image:'/taxi.png',
         charges:1.2
     }
     // {

@@ -36,11 +36,12 @@ function Cars() {
                     className='w-full'
                     />
                     <h2 className='text-[10px] text-gray-500'>{item.name}
-                   {directionData.routes?
+                   {/* {directionData.routes?
                     <span className='float-right font-medium
                      text-black'>
                       {getCost(item.charges)} 
-                     $</span>:null}</h2>
+                     $</span>:null} */}
+                     </h2>
                 </div>
             ))}
         </div>
